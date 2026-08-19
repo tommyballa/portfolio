@@ -386,6 +386,7 @@ body:hover .cursor-glow { opacity: 1; }
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 /* Scroll hint */
@@ -1425,6 +1426,11 @@ body:hover .cursor-glow { opacity: 1; }
     .contact-form { grid-template-columns: 1fr; }
 
     .cursor-glow { display: none; }
+    
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 480px) {
