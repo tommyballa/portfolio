@@ -1,0 +1,84 @@
+{
+  "about": {
+    "name": "Tommaso",
+    "title": "Computer Engineering Student",
+    "subtitle": "Bridging Biomedical Engineering and Intelligent Systems.",
+    "bio": "I hold a B.Sc. in Biomedical Engineering and am currently pursuing an M.Sc. in Computer Engineering at the Università di Padova. I am passionate about applying intelligent systems, robotics, and computer vision to solve complex real-world problems.",
+    "education": {
+      "degree": "M.Sc. Computer Engineering",
+      "university": "Università di Padova",
+      "year": "Present",
+      "description": "Background: B.Sc. in Biomedical Engineering (Università di Padova)."
+    },
+    "location": {
+      "city": "Padova, Italy",
+      "timezone": "GMT+1",
+      "coordinates": "45.4064° N, 11.8768° E"
+    },
+    "stats": {
+      "projects_completed": 12,
+      "years_of_study": 5,
+      "technologies": 10,
+      "github_repos": 3
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Face and Emotion Recognition",
+      "category": "Computer Vision",
+      "tech": ["Python", "OpenCV", "Deep Learning", "Jupyter"],
+      "desc": "A computer vision pipeline designed for real-time face detection and robust emotion recognition, classifying different facial expressions.",
+      "gradient": ["#8b5cf6", "#3b82f6"],
+      "github": "https://github.com/tommyballa/FaceAndEmotionRecognition",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Visual Saliency Prediction",
+      "category": "Deep Learning",
+      "tech": ["Python", "PyTorch", "Computer Vision"],
+      "desc": "Predicting human visual attention and generating saliency maps from images using deep neural networks.",
+      "gradient": ["#10b981", "#059669"],
+      "github": "https://github.com/tommyballa/Visual-Saliency-Prediction",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Intelligent Robotics Assignment",
+      "category": "Robotics",
+      "tech": ["Python", "ROS", "Robotics"],
+      "desc": "Development of intelligent robotic behaviors and control algorithms for autonomous navigation and task execution.",
+      "gradient": ["#f59e0b", "#d97706"],
+      "github": "https://github.com/tommyballa/group_16_assignment_1",
+      "featured": true
+    }
+  ],
+  "skills": {
+    "languages": [
+      {"name": "Python", "level": 90},
+      {"name": "C / C++", "level": 80},
+      {"name": "C#", "level": 70},
+      {"name": "MATLAB", "level": 70},
+      {"name": "SQL", "level": 55}
+    ],
+    "frameworks": [
+      {"name": "PyTorch", "level": 88},
+      {"name": "OpenCV", "level": 82},
+      {"name": "ROS2", "level": 72},
+      {"name": "Scikit-learn", "level": 78},
+      {"name": "NumPy / Pandas", "level": 85}
+    ],
+    "tools": [
+      {"name": "Git", "level": 88},
+      {"name": "Linux", "level": 80},
+      {"name": "Jupyter / Colab", "level": 92},
+      {"name": "VS Code", "level": 90}
+    ]
+  },
+  "techMarquee": [
+    "Python", "PyTorch", "C++", "OpenCV", "ROS2",
+    "Vision Transformers", "MATLAB", "C#", "Scikit-learn",
+    "NumPy", "Linux", "Git", "KUKA", "Computer Vision", "Deep Learning"
+  ]
+}
