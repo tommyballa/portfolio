@@ -518,6 +518,7 @@ body:hover .cursor-glow { opacity: 1; }
     border-radius: var(--radius);
     padding: 1.5rem;
     position: relative;
+    overflow: hidden;
     transition: transform 0.4s var(--ease), box-shadow 0.4s;
     transform-style: preserve-3d;
     backface-visibility: hidden;
@@ -768,6 +769,7 @@ body:hover .cursor-glow { opacity: 1; }
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin-top: 2px;
+    word-break: break-word;
 }
 
 /* Location card */
