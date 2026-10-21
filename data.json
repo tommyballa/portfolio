@@ -1,14 +1,14 @@
 {
   "about": {
     "name": "Tommaso",
-    "title": "Computer Engineering Student",
-    "subtitle": "Bridging Biomedical Engineering and Intelligent Systems.",
-    "bio": "I hold a B.Sc. in Biomedical Engineering and am currently pursuing an M.Sc. in Computer Engineering at the Università di Padova. I am passionate about applying intelligent systems, robotics, and computer vision to solve complex real-world problems.",
+    "title": "AI Engineer",
+    "subtitle": "Computer Vision, Machine Learning & Deep Learning.",
+    "bio": "AI Engineer at CogniteX, completing an M.Sc. in Computer Engineering (AI and Robotics) at the Università di Padova, with a B.Sc. in Biomedical Engineering. I work on computer vision, machine learning and deep learning to solve complex real-world problems.",
     "education": {
-      "degree": "M.Sc. Computer Engineering",
+      "degree": "M.Sc. Computer Engineering (AI and Robotics)",
       "university": "Università di Padova",
-      "year": "Present",
-      "description": "Background: B.Sc. in Biomedical Engineering (Università di Padova)."
+      "year": "Expected December 2026",
+      "description": "Background: B.Sc. in Biomedical Engineering (Università di Padova, 2024)."
     },
     "location": {
       "city": "Padova, Italy",
@@ -24,6 +24,25 @@
   },
   "projects": [
     {
+      "id": 4,
+      "title": "Visual Anomaly Detection of Varroa Destructor in Beehives",
+      "category": "Computer Vision",
+      "tech": ["PyTorch", "YOLO", "SAM", "OpenCV", "Anomaly Detection"],
+      "desc": "A computer vision pipeline for beehive health monitoring. Detection and instance segmentation models (YOLO and SAM) isolate individual bees within complex frames, followed by unsupervised Visual Anomaly Detection to spot anomalies and parasites at both local and global level.",
+      "gradient": ["#ef4444", "#f59e0b"],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Deep Visual Attention Prediction",
+      "category": "Deep Learning",
+      "tech": ["Python", "PyTorch", "Swin Transformer", "Google Colab"],
+      "desc": "A deep learning architecture for saliency prediction based on Swin-Transformer, optimized to extract complex spatial features and predict where humans look in an image.",
+      "gradient": ["#10b981", "#059669"],
+      "github": "https://github.com/tommyballa/Visual-Saliency-Prediction",
+      "featured": true
+    },
+    {
       "id": 1,
       "title": "Face and Emotion Recognition",
       "category": "Computer Vision",
@@ -31,16 +50,6 @@
       "desc": "A computer vision pipeline designed for real-time face detection and robust emotion recognition, classifying different facial expressions.",
       "gradient": ["#8b5cf6", "#3b82f6"],
       "github": "https://github.com/tommyballa/FaceAndEmotionRecognition",
-      "featured": true
-    },
-    {
-      "id": 2,
-      "title": "Visual Saliency Prediction",
-      "category": "Deep Learning",
-      "tech": ["Python", "PyTorch", "Computer Vision"],
-      "desc": "Predicting human visual attention and generating saliency maps from images using deep neural networks.",
-      "gradient": ["#10b981", "#059669"],
-      "github": "https://github.com/tommyballa/Visual-Saliency-Prediction",
       "featured": true
     },
     {
@@ -65,6 +74,7 @@
     "frameworks": [
       {"name": "PyTorch", "level": 88},
       {"name": "OpenCV", "level": 82},
+      {"name": "YOLO / SAM", "level": 80},
       {"name": "ROS2", "level": 72},
       {"name": "Scikit-learn", "level": 78},
       {"name": "NumPy / Pandas", "level": 85}
@@ -76,9 +86,5 @@
       {"name": "VS Code", "level": 90}
     ]
   },
-  "techMarquee": [
-    "Python", "PyTorch", "C++", "OpenCV", "ROS2",
-    "Vision Transformers", "MATLAB", "C#", "Scikit-learn",
-    "NumPy", "Linux", "Git", "KUKA", "Computer Vision", "Deep Learning"
-  ]
+  "techMarquee": ["Python", "PyTorch", "C++", "OpenCV", "Anomaly Detection", "SAM", "YOLO", "ROS2", "Swin Transformer", "MATLAB", "C#", "Scikit-learn", "NumPy", "Linux", "Git", "KUKA", "Computer Vision", "Deep Learning"]
 }

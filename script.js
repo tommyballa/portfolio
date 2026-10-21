@@ -33,8 +33,8 @@ const typewriterEl = document.getElementById('typewriter');
 const phrases = [
     'Turning data into intelligence.',
     'Deep Learning & Computer Vision.',
-    'Vision Transformers. RNNs. CNNs.',
-    'Seeking junior ML & AI roles.',
+    'Swin Transformers. YOLO. SAM.',
+    'AI Engineer @ CogniteX.',
 ];
 let phraseIndex = 0;
 let charIndex = 0;
